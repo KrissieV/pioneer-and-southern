@@ -1,0 +1,16 @@
+.pioneer-button a,a .pioneer-button {
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	color: #113451;
+	line-height: 1;
+	border: 3px solid #f1f1f1;
+	background: #fff;
+	margin-bottom: 1.25rem;
+	padding: .8rem;
+	font-size: 0.875rem;
+	letter-spacing: 0;
+	border-radius: 6px;
+	display: inline-block;
+	margin-top: .5rem;
+}

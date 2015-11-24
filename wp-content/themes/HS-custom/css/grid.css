@@ -1,0 +1,72 @@
+.container {
+	width: 92%;
+	margin: 0 auto;
+	max-width: 1170px;
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+.section.vertical-marg {margin-top: 2%; margin-bottom: 2%;}
+.section::after {display: block; clear: both; content: ''; width: 100%;}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 2% 2% 2% 2%;
+}
+
+.col.float-opposite {float: right;}
+
+.no-marg .col {margin: 0;}
+
+.no-top-marg .col {margin-top: 0;}
+.no-bot-marg .col {margin-bottom: 0;}
+
+
+.full {width: 96%;}
+.no-marg .full {width: 100%;}
+.half {width: 46%;}
+.no-marg .half {width: 50%;}
+.third {width: 29.333%;}
+.no-marg .third {width: 33.333%;}
+.fourth {width: 21%;}
+.no-marg .fourth {width: 25%;}
+.fifth {width: 16%;}
+.no-marg .fifth {width: 20%;}
+.sixth {width: 12.666%;}
+.no-marg .sixth {width: 16.666%;}
+
+.two-thirds {width: 62.666%;}
+.no-marg .two-thirds {width: 66.666%;}
+.three-fourths {width: 71%;}
+.no-marg .three-fourths {width: 75%;}
+.two-fifths {width: 36%;}
+.no-marg .two-fifths {width: 40%;}
+.three-fifths {width: 56%;}
+.no-marg .three-fifths {width: 60%;}
+.four-fifths {width: 76%;}
+.no-marg .four-fifths {width: 80%;}
+.five-sixths {width: 79.333%;}
+.no-marg .five-sixths {width: 83.333%;}
+
+
+
+
+/* Breakpoint Adjustments */
+
+@media only screen and (max-width: 768px) {
+.container {width: 98%;}
+.half,.third,.fourth,.fifth,.sixth,.two-thirds,.three-fourths,.two-fifths,.three-fifths,.four-fifths,.five-sixths {width: 96%;}
+.no-marg .half,.no-marg .third,.no-marg .fourth,.no-marg .fifth,.no-marg .sixth,.no-marg .two-thirds,.no-marg .three-fourths,.no-marg .two-fifths,.no-marg .three-fifths,.no-marg .four-fifths,.no-marg .five-sixths {width: 100%;}
+}
+
+@media only screen and (max-width: 480px) {
+.half,.third,.fourth,.fifth,.sixth,.two-thirds,.three-fourths,.two-fifths,.three-fifths,.four-fifths,.five-sixths {width: 96%;}
+.no-marg .half,.no-marg .third,.no-marg .fourth,.no-marg .fifth,.no-marg .sixth,.no-marg .two-thirds,.no-marg .three-fourths,.no-marg .two-fifths,.no-marg .three-fifths,.no-marg .four-fifths,.no-marg .five-sixths {width: 100%;}
+}
