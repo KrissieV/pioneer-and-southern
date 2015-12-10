@@ -934,10 +934,10 @@ a, a:visited, a:hover, a:active {
   float: left;
   margin-right: 1rem;
   margin-bottom: 1rem; }
-  .sub-page .entry-content img .alignleft, .blog .entry-content img .alignleft, .single .entry-content img .alignleft {
+  .sub-page .entry-content img.alignleft, .blog .entry-content img.alignleft, .single .entry-content img.alignleft {
     float: left;
     margin-right: 1rem; }
-  .sub-page .entry-content img .alignright, .blog .entry-content img .alignright, .single .entry-content img .alignright {
+  .sub-page .entry-content img.alignright, .blog .entry-content img.alignright, .single .entry-content img.alignright {
     float: right;
     margin-left: 1rem; }
 
